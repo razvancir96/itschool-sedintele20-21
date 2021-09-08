@@ -1,0 +1,44 @@
+body,
+button,
+input {
+  font-size: 2rem;
+}
+
+button {
+  margin: 16px 0;
+}
+
+.image-placeholder {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-placeholder img {
+  height: 100%;
+  width: auto;
+}
+
+/* Initial dropdown-ul nu este vizibil. El va fi facut vizibil din JS. */
+.dropdown-menu ul {
+  visibility: hidden;
+}
+
+/* Initial, butonul de scroll to top nu este afisat. */
+.scroll-to-top {
+  visibility: hidden;
+  color: white;
+  background: blue;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.username-error-message,
+.phone-error-message {
+  color: red;
+}
